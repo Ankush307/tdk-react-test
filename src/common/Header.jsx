@@ -24,19 +24,19 @@ const Header = () => {
                     </div>
 
                     <div className="hidden md:flex space-x-6">
-                        <a href="#home" className="hover:text-gray-300 text-[13px] ">
+                        <a href="#home" className="hover:text-gray-300 text-[13px] leading-[15px] ">
                             Menu One
                         </a>
-                        <a href="#services" className="hover:text-gray-300 text-[13px] ">
+                        <a href="#services" className="hover:text-gray-300 text-[13px] leading-[15px] ">
                             Menu Two
                         </a>
-                        <a href="#about" className="hover:text-gray-300 text-[13px] ">
+                        <a href="#about" className="hover:text-gray-300 text-[13px] leading-[15px] ">
                             Menu Three
                         </a>
-                        <a href="#portfolio" className="hover:text-gray-300 text-[13px] ">
+                        <a href="#portfolio" className="hover:text-gray-300 text-[13px] leading-[15px] ">
                             Menu Four
                         </a>
-                        <a href="#contact" className="hover:text-gray-300 text-[13px] ">
+                        <a href="#contact" className="hover:text-gray-300 text-[13px] leading-[15px] ">
                             Menu Five
                         </a>
                     </div>
