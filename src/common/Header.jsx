@@ -6,16 +6,12 @@ const Header = () => {
 
     return (
         <div>
-            <img className='pointer-events-none md:block hidden' src="./assets/image/png/navigation-bar.png" alt="" />
+            <img className='pointer-events-none md:block hidden' src="./assets/image/png/navigation-bar.png" alt="navigation bar" />
             <nav className="bg-blue-chalk text-white">
-                <div className="container mx-auto flex items-center justify-between px-5 py-3 md:py-4">
+                <div className="container mx-auto flex items-center justify-between px-5 max-md:py-3 md:pt-11 md:pb-[22px] ">
                     <div className="flex items-center md:hidden justify-between w-full">
                         <div className="block md:hidden">
-                            <img
-                                src="./assets/image/png/page-logo.png"
-                                alt="Logo"
-                                className="w-[73px] h-[15px] "
-                            />
+                            <img src="./assets/image/png/page-logo.png" alt="Logo" className="w-[73px] h-[15px] " />
                         </div>
                         <button
                             className="md:hidden ml-2 flex-col flex gap-[2px] justify-end items-center"
@@ -44,13 +40,9 @@ const Header = () => {
                             Menu Five
                         </a>
                     </div>
-                    <div className="hidden !text-white md:flex items-center justify-between max-w-[257px] w-full px-4 py-2 bg-transparent border-2 border-white rounded">
-                        <input
-                            type="text"
-                            className="bg-transparent border-none focus:outline-none placeholder-white"
-                            placeholder="Search by Keyword"
-                        />
-                        <SearchIcon />
+                    <div className="hidden !text-white md:flex items-center justify-between max-w-[257px] w-full px-[14px] py-2 bg-transparent border-[1px] border-white rounded-[5px] ">
+                        <input type="text" className="bg-transparent border-none focus:outline-none placeholder-white"
+                            placeholder="Search by Keyword" /> <SearchIcon />
                     </div>
                 </div>
 
