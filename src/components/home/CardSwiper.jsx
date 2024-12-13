@@ -7,7 +7,7 @@ import { cardData } from '../../utils/Helper';
 
 
 
-const CardSwiper = () => { 
+const CardSwiper = () => {
     return (
         <div className="w-full max-w-[1140px] mx-auto md:py-[120px] py-[60px]">
             <Swiper
