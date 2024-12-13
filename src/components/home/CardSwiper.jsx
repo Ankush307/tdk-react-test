@@ -7,11 +7,11 @@ import { cardData } from '../../utils/Helper';
 
 
 
-const CardSlider = () => {
+const CardSwiper = () => {
     return (
-        <div className="w-full max-w-[1140px] mx-auto">
+        <div className="w-full max-w-[1140px] mx-auto md:py-[120px] py-[60px]">
             <Swiper
-                slidesPerView={4}
+                slidesPerView={3}
                 center={true}
                 spaceBetween={10}
                 loop={true}
@@ -37,4 +37,4 @@ const CardSlider = () => {
     );
 };
 
-export default CardSlider;
+export default CardSwiper;

@@ -1,14 +1,14 @@
 import React from 'react'
 import Hero from '../components/home/Hero'
 import OurPartners from '../components/home/OurPartners'
-import CardSlider from '../components/home/CardSlider'
+import CardSwiper from '../components/home/CardSwiper'
 
 const Home = () => {
   return (
     <>
     <Hero/>
     <OurPartners/>
-    <CardSlider/>
+    <CardSwiper/>
     </>
   )
 }

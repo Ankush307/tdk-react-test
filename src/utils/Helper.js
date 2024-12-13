@@ -16,16 +16,16 @@ export const CARDS_DATA = [
 ];
 export const cardData = [
     {
-        title: 'Card 1',
-        imgSrc: './assets/image/png/swiper-img1.png'
-    },
-    {
         title: 'Card 2',
         imgSrc: './assets/image/png/swiper-2img.png'
     },
     {
         title: 'Card 3',
         imgSrc: './assets/image/png/swiper-3img.png'
+    },
+    {
+        title: 'Card 4',
+        imgSrc: './assets/image/png/swiper-4img.png'
     },
     {
         title: 'Card 4',
