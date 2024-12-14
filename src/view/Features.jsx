@@ -1,11 +1,8 @@
 import React from 'react'
-import MyFeatures from '../components/features/MyFeatures'
 
 const Features = () => {
   return (
-    <>
-      <MyFeatures />
-    </>
+    <h2>comming soon</h2>
   )
 }
 

@@ -1,11 +1,8 @@
 import React from 'react'
-import AboutUs from '../components/about/AboutUs'
 
 const About = () => {
   return (
-    <>
-    <AboutUs/>
-    </>
+    <h2>comming soon</h2>
   )
 }
 
